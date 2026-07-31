@@ -1,20 +1,64 @@
 aid: napkin-math
 name: Napkin Math
-description: Napkin Math is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Napkin Math is a personalized AI food journal from Paper Star (a Y Combinator
+  company, founded 2026 in San Francisco by Manuel Castro, Claire Nord, and
+  Jynnie Tang). Marketed as "an AI nutrition coach in your pocket," it is a
+  simple, beautiful food diary that helps people log meals and understand their
+  eating habits over time. The product is a consumer mobile application rather
+  than a developer platform: as of this profile Napkin Math publishes no public
+  API, developer documentation, SDKs, OpenAPI, MCP server, or /.well-known
+  discovery surface. This entry is maintained in the API Evangelist network as a
+  company profile and enrichment lead; it will be upgraded to carry API
+  artifacts if and when Napkin Math or Paper Star exposes a public API surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://napkinmath.club/opengraph-image.png
 url: https://raw.githubusercontent.com/api-evangelist/napkin-math/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+x-parent-company: Paper Star
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: consumer-app-no-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Nutrition
+- Food Journal
+- Health
+- Diet
+- Artificial Intelligence
+- Consumer Application
+- Mobile Application
+- iOS
+common:
+- url: https://napkinmath.club
+  type: Website
+- url: https://www.paperstar.cc/napkin-math/terms
+  type: TermsOfService
+- url: https://www.paperstar.cc/napkin-math/terms
+  type: PrivacyPolicy
+- url: security/napkin-math-domain-security.yml
+  type: DomainSecurity
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
